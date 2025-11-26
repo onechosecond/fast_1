@@ -1,0 +1,122 @@
+window.DRESS_UP_ITEMS = {
+  tops: [
+    {
+      id: "denim",
+      label: "데님 재킷",
+      color: "#5c7fa6",
+      description: "어떤 아이템과도 잘 어울리는 스테디셀러",
+      price: 10000,
+    },
+    {
+      id: "sweater",
+      label: "라일락 니트",
+      color: "#caa0ff",
+      description: "포근한 텍스처와 산뜻한 색감",
+      price: 140000,
+    },
+    {
+      id: "blazer",
+      label: "크림 블레이저",
+      color: "#f9eedd",
+      description: "격식과 캐주얼을 모두 잡는 기본템",
+      price: 20000,
+    },
+    {
+      id: "top_4",
+      label: "상의 4",
+      color: "#888888",
+      description: "스타일리시한 상의",
+      price: 110000,
+    },
+    {
+      id: "top_5",
+      label: "상의 5",
+      color: "#888888",
+      description: "트렌디한 상의",
+      price: 108000,
+    },
+  ],
+  bottoms: [
+    {
+      id: "trouser",
+      label: "카멜 슬랙스",
+      color: "#c49a6c",
+      description: "가을 감성의 세련된 실루엣",
+      price: 140000,
+    },
+    {
+      id: "skirt",
+      label: "네이비 스커트",
+      color: "#1f2c4d",
+      description: "플레어 라인이 돋보이는 디자인",
+      price: 35000,
+    },
+    {
+      id: "jean",
+      label: "화이트 진",
+      color: "#f0f2f8",
+      description: "산뜻한 화이트 컬러의 데님",
+      price: 15000,
+    },
+    {
+      id: "bottom_4",
+      label: "하의 4",
+      color: "#888888",
+      description: "세련된 하의",
+      price: 27000,
+    },
+    {
+      id: "bottom_5",
+      label: "하의 5",
+      color: "#888888",
+      description: "고급스러운 하의",
+      price: 135000,
+    },
+  ],
+  accessories: [
+    {
+      id: "beret",
+      label: "버건디 베레모",
+      color: "#7a1f3d",
+      description: "포인트를 주기 좋은 아이템",
+      price: 5000,
+    },
+    {
+      id: "scarf",
+      label: "파스텔 스카프",
+      color: "#fde2eb",
+      description: "은은한 패턴으로 여성스러움 업",
+      price: 130000,
+    },
+    {
+      id: "bag",
+      label: "토프 미니백",
+      color: "#a0866a",
+      description: "필수템만 쏙 담는 컴팩트 백",
+      price: 15000,
+    },
+    {
+      id: "acc_4",
+      label: "액세서리 4",
+      color: "#888888",
+      description: "포인트 액세서리",
+      price: 20000,
+    },
+    {
+      id: "acc_5",
+      label: "액세서리 5",
+      color: "#888888",
+      description: "럭셔리 액세서리",
+      price: 65000,
+    },
+    {
+      id: "acc_6",
+      label: "액세서리 6",
+      color: "#888888",
+      description: "심플한 액세서리",
+      price: 17000,
+    },
+  ],
+};
+
+window.DRESS_UP_ORDER = ["tops", "bottoms", "accessories"];

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ㅍast ㅍashion</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="landing">
+    <main class="panel">
+      <p class="eyebrow">Thrift Shopping Simulator</p>
+      <h1>이제 새 옷은 그만!</h1>
+      <p class="lead">빈티지 옷은 가격도 저렴하고 환경도 지킬 수 있어요.<br>함정을 피해 멋진 빈티지 옷을 고르는 연습을 해보세요!</p>
+      <div class="button-row">
+        <a class="btn primary" href="play.html">Play</a>
+        <a class="btn secondary" href="">Archive</a>
+      </div>
+    </main>
+    <script>
+      (() => {
+        function playHoverSound() {
+          const audio = new Audio("https://taira-komori.net/sound_os2/game01/select05.mp3");
+          audio.volume = 0.5;
+          audio.play().catch((err) => {
+            console.log("Audio play failed:", err);
+          });
+        }
+
+        function playClickSound() {
+          const audio = new Audio("https://taira-komori.net/sound_os2/game01/poka03.mp3");
+          audio.volume = 0.5;
+          audio.play().catch((err) => {
+            console.log("Audio play failed:", err);
+          });
+        }
+
+        const buttons = document.querySelectorAll(".button-row .btn");
+        buttons.forEach((btn) => {
+          btn.addEventListener("mouseenter", playHoverSound);
+          btn.addEventListener("click", playClickSound);
+        });
+      })();
+    </script>
+  </body>
+</html>
